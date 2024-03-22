@@ -52,7 +52,22 @@
         "identifier" : "b4c653fa-ea0b-3d14-ae19-e91f8b451bb9",
         "inputPorts" : [ ],
         "instanceIdentifier" : "e3939271-d140-3955-9970-5ac6cc2005f7",
-        "labels" : [ ],
+        "labels" : [ {
+          "componentType" : "LABEL",
+          "groupIdentifier" : "b4c653fa-ea0b-3d14-ae19-e91f8b451bb9",
+          "height" : 448.0,
+          "identifier" : "46c1939c-7b80-3c80-bddc-c864c87b702d",
+          "instanceIdentifier" : "64d97000-018e-1000-9a8e-6151dabc311c",
+          "position" : {
+            "x" : 1069.0000207177447,
+            "y" : -39.9971337206062
+          },
+          "style" : {
+            "background-color" : "#998940"
+          },
+          "width" : 640.0,
+          "zIndex" : 0
+        } ],
         "name" : "TestFlow",
         "outputPorts" : [ ],
         "position" : {
