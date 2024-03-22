@@ -16,39 +16,6 @@
           "destination" : {
             "comments" : "",
             "groupId" : "e3939271-d140-3955-b91b-145d2a6b471b",
-            "id" : "922c1595-aeb5-37be-a418-02991bba9a7e",
-            "instanceIdentifier" : "018d1007-3002-1e52-f1a3-80b2400444b5",
-            "name" : "Funnel",
-            "type" : "FUNNEL"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "e3939271-d140-3955-b91b-145d2a6b471b",
-          "identifier" : "ae6bf917-bbe7-34cc-9219-afd67ef3380e",
-          "instanceIdentifier" : "018d1008-3002-1e52-c144-8967095e5f2e",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "e3939271-d140-3955-b91b-145d2a6b471b",
-            "id" : "8fa1c80d-4517-349e-baf0-175d6e6b109d",
-            "instanceIdentifier" : "018d1000-5bb3-1e2e-d1b0-8f9ca61f4d0e",
-            "name" : "LogAttribute",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "e3939271-d140-3955-b91b-145d2a6b471b",
             "id" : "8fa1c80d-4517-349e-baf0-175d6e6b109d",
             "instanceIdentifier" : "018d1000-5bb3-1e2e-d1b0-8f9ca61f4d0e",
             "name" : "LogAttribute",
@@ -81,16 +48,7 @@
         "defaultFlowFileExpiration" : "0 sec",
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
-        "funnels" : [ {
-          "componentType" : "FUNNEL",
-          "groupIdentifier" : "e3939271-d140-3955-b91b-145d2a6b471b",
-          "identifier" : "922c1595-aeb5-37be-a418-02991bba9a7e",
-          "instanceIdentifier" : "018d1007-3002-1e52-f1a3-80b2400444b5",
-          "position" : {
-            "x" : 934.0,
-            "y" : 475.0
-          }
-        } ],
+        "funnels" : [ ],
         "identifier" : "e3939271-d140-3955-b91b-145d2a6b471b",
         "inputPorts" : [ ],
         "instanceIdentifier" : "018d1002-3002-1e52-e524-94d5f3e02f54",
