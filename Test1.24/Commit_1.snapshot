@@ -16,6 +16,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "e3939271-d140-3955-b91b-145d2a6b471b",
+            "id" : "02710eee-34cc-300e-9632-71b6307b4a34",
+            "instanceIdentifier" : "64dc22c3-018e-1000-aa67-a4f24b91547e",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "e3939271-d140-3955-b91b-145d2a6b471b",
+          "identifier" : "7f85984c-ea62-3ef9-a1c2-d9766e8578ac",
+          "instanceIdentifier" : "64dc2f97-018e-1000-3b4c-900120bb371d",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "e3939271-d140-3955-b91b-145d2a6b471b",
+            "id" : "8fa1c80d-4517-349e-baf0-175d6e6b109d",
+            "instanceIdentifier" : "018d1000-5bb3-1e2e-d1b0-8f9ca61f4d0e",
+            "name" : "LogAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "e3939271-d140-3955-b91b-145d2a6b471b",
             "id" : "8fa1c80d-4517-349e-baf0-175d6e6b109d",
             "instanceIdentifier" : "018d1000-5bb3-1e2e-d1b0-8f9ca61f4d0e",
             "name" : "LogAttribute",
@@ -48,7 +81,16 @@
         "defaultFlowFileExpiration" : "0 sec",
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
-        "funnels" : [ ],
+        "funnels" : [ {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "e3939271-d140-3955-b91b-145d2a6b471b",
+          "identifier" : "02710eee-34cc-300e-9632-71b6307b4a34",
+          "instanceIdentifier" : "64dc22c3-018e-1000-aa67-a4f24b91547e",
+          "position" : {
+            "x" : 1012.0,
+            "y" : 395.0
+          }
+        } ],
         "identifier" : "e3939271-d140-3955-b91b-145d2a6b471b",
         "inputPorts" : [ ],
         "instanceIdentifier" : "018d1002-3002-1e52-e524-94d5f3e02f54",
@@ -56,7 +98,7 @@
         "name" : "TestFlow",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 840.0,
+          "x" : 968.0,
           "y" : -200.0
         },
         "processGroups" : [ ],
